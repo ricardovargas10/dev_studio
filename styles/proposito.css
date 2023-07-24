@@ -1,0 +1,20 @@
+.proposito {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5em;
+    gap: 0 20rem;
+    background: var(--color-black);
+}
+
+.proposito-titulo {
+    font-family: var(--type-title);
+    font-size: 80px;
+    font-style: normal;
+    line-height: 90px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: var(--color-white);
+    width: 60%;
+}

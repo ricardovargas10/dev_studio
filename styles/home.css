@@ -1,0 +1,32 @@
+.home {
+    background-color: var(--home-primeiro);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-inline: 5em;
+}
+
+.home__mensagem-texto {
+    font-family: var(--type-text);
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    width: 13em;
+    margin-bottom: 1.5em;
+}
+
+.home__mensagem-titulo {
+    font-family: var(--type-title);
+    font-size: 100px;
+    font-style: normal;
+    line-height: 110px;
+    font-weight: 700;
+    letter-spacing: -5px;
+}
+
+.home__projeto {
+    height: 70%;
+}
