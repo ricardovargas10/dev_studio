@@ -30,3 +30,9 @@
 .home__projeto {
     height: 70%;
 }
+
+@media screen and (min-width: 1925px) {
+    .home {
+        padding-inline: 8em;
+    }
+}

@@ -27,3 +27,14 @@
     flex-wrap: wrap;
     width: 80%;
 }
+
+.cases__lista-item__imagem:hover {
+    background-color: var(--color-lightgray);
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1925px) {
+    .cases__container-lista {
+        width: 60%;
+    }
+}

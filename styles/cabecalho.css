@@ -13,23 +13,41 @@
 .cabecalho-menu__lista {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 7px;
 }
 
 .menu__lista-item {
     font-family: var(--type-text);
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     line-height: normal;
+    font-weight: 400;
     text-decoration: none;
     color: var(--color-black);
+    padding: 1em;
 }
 
 .menu__lista-botao {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     color: var(--color-white);
     padding: 1.2em;
     background-color: var(--color-black);
     border-radius: 4.5px;
+}
+
+.menu__lista-botao:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.menu__lista-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 1925px) {
+    .cabecalho {
+        padding: 0.75em 8em;
+    }
 }

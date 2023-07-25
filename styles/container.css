@@ -7,8 +7,8 @@
     gap: 0 20rem;
 }
 
-.container__imagem {
-    height: 60%;
+.container__conteudo {
+    width: 30%;
 }
 
 .container__conteudo-titulo {
@@ -26,4 +26,14 @@
     font-style: normal;
     line-height: normal;
     font-weight: 400;
+}
+
+.container__imagem {
+    height: 60%;
+}
+
+@media screen and (min-width: 1925px) {
+    .container {
+        padding-inline: 8em;
+    }
 }

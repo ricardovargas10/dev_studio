@@ -18,3 +18,13 @@
     color: var(--color-white);
     width: 60%;
 }
+
+@media screen and (min-width: 1925px) {
+    .proposito {
+        padding-inline: 8em;
+    }
+
+    .proposito-titulo {
+        width: 50%;
+    }
+}

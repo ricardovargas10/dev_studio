@@ -49,3 +49,23 @@
     background-color: var(--color-white);
     border-radius: 4.5px;
 }
+
+.cta__conteudo-botao:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+@media screen and (min-width: 1925px) {
+    .cta {
+        padding-inline: 20em;
+    }
+
+    .cta__titulo {
+        width: 40%;
+    }
+
+    .cta__conteudo {
+        width: 40%;
+    }
+}

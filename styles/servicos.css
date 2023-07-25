@@ -65,3 +65,17 @@
     font-weight: 400;
     width: 20em;
 }
+
+@media screen and (min-width: 1925px) {
+    .servicos {
+        padding-inline: 8em;
+    }
+
+    .servicos__container-titulo {
+        width: 50%;
+    }
+
+    .servicos__lista {
+        width: 50%;
+    }
+}
