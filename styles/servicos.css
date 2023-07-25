@@ -79,3 +79,11 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .servicos__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

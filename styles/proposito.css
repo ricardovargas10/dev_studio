@@ -28,3 +28,19 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .proposito {
+        height: 60vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .proposito-titulo {
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -3px;
+        text-align: center;
+        width: 100%;
+    }
+}

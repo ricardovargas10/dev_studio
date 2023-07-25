@@ -51,3 +51,13 @@
         padding: 0.75em 8em;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .cabecalho {
+        padding: 0.75em 2em;
+    }
+
+    .cabecalho-menu__lista {
+        gap: 1px;
+    }
+}

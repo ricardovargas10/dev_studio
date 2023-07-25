@@ -37,3 +37,35 @@
         padding-inline: 8em;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .container {
+        padding: 2em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3em;
+    }
+
+    .container__conteudo {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .container__imagem {
+        height: 90vw;
+        display: flex;
+        align-self: center;
+    }
+
+    .metodologia__imagem {
+        display: none;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

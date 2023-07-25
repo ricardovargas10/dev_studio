@@ -36,3 +36,9 @@
         padding-inline: 8em;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .home__projeto {
+        display: none;
+    }
+}
