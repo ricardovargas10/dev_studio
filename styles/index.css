@@ -234,20 +234,16 @@
     background-color: var(--color-white);
     height: 100vh;
     display: flex;
-}
-
-.cases__container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-inline: 7em;
 }
 
 .cases__container-titulo {
     font-family: var(--type-title);
     font-size: 30px;
     font-style: normal;
-    line-height: 30px;
     font-weight: 700;
     letter-spacing: -1.5px;
     margin-bottom: 2em;
@@ -257,7 +253,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
 }
 
 .cases__lista-item__imagem:hover {
@@ -450,16 +445,20 @@
     }
 
     .container__conteudo {
-        width: 32%;
+        width: 40%;
     }
 
     .container__conteudo-titulo {
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 50px;
+        line-height: 55px;
     }
 
     .container__imagem {
-        height: 65%;
+        height: 80%;
+    }
+
+    .metod-content{
+        width: 30%;
     }
 
     .metodologia__imagem {
@@ -467,7 +466,7 @@
     }
 
     .metodologia {
-        height: 100vh;
+        height: 115vh;
     }
 
     /* SEÇÃO PROPÓSITO */
@@ -514,7 +513,7 @@
     
     .servicos__lista__item-texto {
         font-size: 16px;
-        line-height: normal;
+        line-height: 22px;
         width: 18em;
     }
 
@@ -523,26 +522,43 @@
     .item__4, .item__5, .item__6 {
         display: none
     }
-
-    .cases__container-lista {
-        width: 90%;
+    .cases {
+        height: 110vh;
     }
 
-    .cases__container-lista-item {
-        width: 30%;
+    .cases__container-titulo {
+        font-size: 25px;
+        margin-bottom: 2em;
+    }
+
+    .cases__lista-item__imagem {
+        width: 13em;
     }
 
     /* SEÇÃO CTA */
     .cta {
-        padding-inline: 10%;
+        padding-inline: 9em;
         gap: 20%;
     }
 
     .cta__titulo {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: 60px;
+        line-height: 70px;
     }
 
+    .cta__conteudo-titulo {
+        font-size: 18px;
+    }
+
+    .cta__conteudo-texto {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cta__conteudo-botao {
+        font-size: 16px;
+    }
+    
     /* SEÇÃO RODAPÉ */
     .rodape {
         padding: 0 4em 1em 4em;
