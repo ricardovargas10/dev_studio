@@ -48,7 +48,7 @@ header {
 }
 
 .menu__lista-botao:hover {
-    background-color: var(--color-white);
+    background-color: var(--color-lightgray);
     color: var(--color-black);
 }
 
