@@ -1,9 +1,16 @@
+header {
+    width: 87vw;
+}
+
 .cabecalho {
-    background-color: var(--home-primeiro);
+    /* background-color: var(--home-primeiro); */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.75em 5em;
+    position: fixed;
+    padding: 0.5em 5em;
+    transition: 1s;
 }
 
 .cabecalho-logo {
@@ -13,12 +20,16 @@
 .cabecalho-menu__lista {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 15px;
+}
+
+.cabecalho.rolagem {
+    background-color: var(--color-white);
 }
 
 .menu__lista-item {
     font-family: var(--type-text);
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     line-height: normal;
     font-weight: 400;
@@ -29,7 +40,7 @@
 
 .menu__lista-botao {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     color: var(--color-white);
     padding: 1.2em;
     background-color: var(--color-black);
@@ -42,7 +53,7 @@
 }
 
 .menu__lista-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--color-lightgray);
     border-radius: 4px;
 }
 

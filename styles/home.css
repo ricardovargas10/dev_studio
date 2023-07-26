@@ -1,11 +1,15 @@
 .home {
-    background-color: var(--home-primeiro);
     color: var(--color-white);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     padding-inline: 5em;
+    background-color: var(--home-primeiro);
+    /* background-image: url(../img/carrossel/pilhas-gotech.png);
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .home__mensagem-texto {
