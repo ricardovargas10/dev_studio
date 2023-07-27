@@ -97,8 +97,8 @@
 .container {
     height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 3em 5em;
 }
 
@@ -201,7 +201,7 @@
     font-family: var(--type-title);
     font-size: 30px;
     font-style: normal;
-    line-height: 30px;
+    line-height: normal;
     font-weight: 700;
     letter-spacing: -1.5px;
 }
@@ -268,7 +268,6 @@
     padding-inline: 20%;
     gap: 0 20rem;
     background-color: var(--color-black);
-    gap: 20%;
 }
 
 .cta__titulo {
@@ -516,13 +515,11 @@
     .servicos__lista__item-numero,
     .servicos__lista__item-titulo {
         font-size: 20px;
-        line-height: 20px;
         letter-spacing: -1.5px;
     }
     
     .servicos__lista__item-texto {
         font-size: 16px;
-        line-height: 22px;
         width: 18em;
     }
 
@@ -531,6 +528,7 @@
     .item__4, .item__5, .item__6 {
         display: none
     }
+
     .cases {
         height: 110vh;
     }
@@ -593,44 +591,92 @@
 @media screen and (max-width: 1024px) {
     
     /* SEÇÃO CABEÇALHO */
+    .cabecalho {
+        padding: 0.75em 2em
+    }
+
     .cabecalho-menu__lista {
         gap: 1px;
     }
 
+    .cabecalho-menu__lista__item {
+        font-size: 10px;
+    }
+    
+    .cabecalho-menu__lista__botao {
+        text-decoration: none;
+        font-size: 10px;
+        color: var(--color-white);
+        padding: 1.2em;
+        background-color: var(--color-black);
+        border-radius: 4.5px;
+    }
+
     /* SEÇÃO HOME */
+    .home {
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 7em 0 0 0;
+        gap: 2em;
+    }
+
+    .home__mensagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .home__projeto {
-        display: none;
+        height: 60%;
     }
 
     /* SEÇÃO CONTAINER */
     .container {
-        padding: 2em;
+        height: 70vh;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 3em;
+        padding: 5em 4em 0em 4em;
+        gap: 2em;
     }
 
     .container__conteudo {
-        width: 80%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
 
+    .container__conteudo-titulo {
+        margin-bottom: 2rem;
+    }
+
     .container__imagem {
-        height: 90vw;
+        width: 22em;
         display: flex;
         align-self: center;
     }
 
-    .metodologia__imagem {
-        display: none;
-    }
-
     .reverse {
+        height: 75vh;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 5em 4em 5em 4em;
+        gap: 2em;
+    }
+
+    .metodologia {
+        gap: 3em;
+        display: flex;
+        justify-content: center;
+        padding: 2em 4em;
+    }
+
+    .metodologia__imagem {
+        width: 20em;
     }
     
     /* SEÇÃO PROPÓSITO */
@@ -641,29 +687,84 @@
     }
 
     .proposito-titulo {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 60px;
         letter-spacing: -3px;
         text-align: center;
         width: 100%;
     }
 
     /* SEÇÃO SERVIÇOS */
-    .servicos__container {
-        display: flex;
+    .servicos {
+        height: 105vh;
         flex-direction: column;
+        align-items: flex-start;
         justify-content: center;
+        gap: 2em;
+        padding-inline: 4em;
+    }   
+
+    .servicos__container-titulo {
+        width: 5em;
+    }
+
+    .servicos__container-seta {
+        display: none;
+    }
+
+    .servicos__lista__conteudo {
+        justify-content: flex-start;
+    }
+
+    .servicos__lista__item-numero,
+    .servicos__lista__item-titulo {
+        font-size: 24px;
+    }
+
+    .servicos__lista__item-numero {
+        margin-bottom: 0em;
+    }
+
+    .servicos__lista__item-texto {
+        width: 30em;
     }
 
     /* SEÇÃO CASES */
+    .cases {
+        height: 30em;
+    }
+
+    .cases__container-lista {
+        width: 700px;
+    }
 
     /* SEÇÃO CTA */
     .cta {
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+        gap: 10%;
+        padding-inline: 7em;
+    }
+
+    .cta__titulo {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .cta__conteudo-titulo {
+        font-size: 20px;
+    }
+    
+    .cta__conteudo-texto {
+        font-size: 16px;
+        line-height: 20px;
     }
 
     /* SEÇÃO RODAPÉ */
+    .rodape {
+        padding: 0 2em 1em 2em;
+    }
 }
 
 
