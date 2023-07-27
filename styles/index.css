@@ -103,7 +103,7 @@
 }
 
 .container__conteudo {
-    width: 25%;
+    width: 30%;
 }
 
 .container__conteudo-titulo {
@@ -173,10 +173,6 @@
     background: var(--color-lightgray);
 }
 
-.servicos__container {
-    display: flex;
-}
-
 .servicos__container-conteudo {
     display: flex;
     flex-direction: column;
@@ -237,7 +233,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-inline: 7em;
+    padding-inline: 4em;
 }
 
 .cases__container-titulo {
@@ -368,35 +364,48 @@
 @media screen and (min-width: 1925px) {
     
     /* SEÇÃO CABEÇALHO */
-
+    .cabecalho {
+        padding-inline: 8em;
+    }
+    
     /* SEÇÃO HOME */
+    .home {
+        padding-inline: 10em;
+    }
 
     /* SEÇÃO CONTAINER */
+    .container {
+        padding: 0em 10em;
+    }
 
+    .metodologia__imagem {
+        width: 40%;
+    }
+    
     /* SEÇÃO PROPÓSITO */
+    .proposito {
+        padding-inline: 10em;
+    }
 
     .proposito-titulo {
-        width: 50%;
+        width: 60%;
     }
 
     /* SEÇÃO SERVIÇOS */
-
-    .servicos__container-titulo {
-        width: 50%;
-    }
-
-    .servicos__lista {
-        width: 50%;
+    .servicos {
+        padding-inline: 10em;
+        gap: 7em
     }
 
     /* SEÇÃO CASES */
-    .cases__container-lista {
-        width: 80%;
+    .cases {
+        text-align: center;
+        padding-inline: 8em;
     }
 
     /* SEÇÃO CTA */
     .cta {
-        padding-inline: 20em;
+        padding-inline: 16em;
     }
 
     .cta__titulo {
@@ -410,7 +419,7 @@
     /* SEÇÃO RODAPÉ */
 }
 
-/* O PROJETO FOI DESENVOLVIDO PARA DESKTOP 1920X1080px */
+/* O PROJETO FOI DESENVOLVIDO PARA DESKTOP 1920x1080px */
 
 /* NOTEBOOK*/
 
@@ -454,7 +463,7 @@
     }
 
     .container__imagem {
-        height: 80%;
+        height: 70%;
     }
 
     .metod-content{
@@ -529,6 +538,10 @@
     .cases__container-titulo {
         font-size: 25px;
         margin-bottom: 2em;
+    }
+
+    .cases__container-lista {
+        width: 1000px;
     }
 
     .cases__lista-item__imagem {
