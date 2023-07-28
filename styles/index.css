@@ -131,6 +131,10 @@
     width: 50%;
 }
 
+.metodologia__mobile {
+    display: none;
+}
+
 .metodologia {
     height: 120vh;
 }
@@ -602,15 +606,6 @@
     .cabecalho-menu__lista__item {
         font-size: 10px;
     }
-    
-    .cabecalho-menu__lista__botao {
-        text-decoration: none;
-        font-size: 10px;
-        color: var(--color-white);
-        padding: 1.2em;
-        background-color: var(--color-black);
-        border-radius: 4.5px;
-    }
 
     /* SEÇÃO HOME */
     .home {
@@ -771,21 +766,184 @@
 
 /* SMARTPHONE*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     
     /* SEÇÃO CABEÇALHO */
+    .cabecalho {
+        padding: 0.75em 1em
+    }
+
+    .cabecalho-logo {
+        height: 30px;
+    }
+
+    .cabecalho-menu__lista__item {
+        display: none;
+    }
+
+    .cabecalho-menu__lista__botao {
+        font-size: 8px;
+    }
 
     /* SEÇÃO HOME */
+    .home {
+        height: 90vh;
+        padding: 5em 0em 0em 0em;
+        gap: 2.5em;
+    }
+
+    .home__mensagem-texto {
+        font-size: 12px;
+        margin-bottom: 1em;
+    }
+
+    .home__mensagem-titulo {
+        font-size: 45px;
+        line-height: 55px;
+        letter-spacing: -3px;
+    }
+
+    .home__projeto {
+        height: 50%;
+    }
 
     /* SEÇÃO CONTAINER */
+    .container {
+        height: auto;
+        justify-content: center;
+        padding: 1.5em;
+    }
+
+    .container__conteudo-titulo {
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -1px;
+        margin-bottom: 0.5em;
+    }
     
+    .container__conteudo-texto {
+        font-size: 12px;
+    }
+
+    .container__imagem {
+        width: 10em;
+    }
+
+    .reverse {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1.5em;
+    }
+
+    .metodologia__imagem {
+        display: none;
+    }
+    
+    .metodologia__mobile {
+        display: flex;
+        align-items: center;
+        width: 10em;
+    }
+
     /* SEÇÃO PROPÓSITO */
+    .proposito {
+        height: 50vh;
+        padding-inline: 1em;
+    }
+
+    .proposito-titulo {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -3px;
+        text-align: center;
+    }
 
     /* SEÇÃO SERVIÇOS */
+    .servicos {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .servicos__container-titulo {
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: -2x;
+    }
+
+    .servicos__lista__item-texto {
+        width: 10em;
+    }
+
+    .servicos__lista__item-numero,
+    .servicos__lista__item-titulo {
+        font-size: 20px;
+    }
+
+    .servicos__lista__item-numero {
+        margin-bottom: 0em;
+    }
+
+    .servicos__lista__item-titulo {
+        margin-bottom: 0.5em;
+    }
+
+    .servicos__lista__item-texto {
+        font-size: 12px;
+        width: 90%;
+    }
 
     /* SEÇÃO CASES */
+    .item__1, .item__2, .item__3,
+    .item__4, .item__5, .item__6 {
+        display: none
+    }
+
+    .cases {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .cases__container-titulo {
+        font-size: 20px;
+        margin-bottom: 1em;
+    }
+
+    .cases__container-lista {
+        width: auto;
+    }
+
+    .cases__lista-item__imagem {
+        width: 6em;
+    }
 
     /* SEÇÃO CTA */
+    .cta {
+        padding-inline: 2em;
+    }
+
+    .cta__titulo {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .cta__conteudo-titulo {
+        font-size: 18px;
+    }
+    
+    .cta__conteudo-texto {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .cta__conteudo-botao {
+        font-size: 14px;
+    }
 
     /* SEÇÃO RODAPÉ */
+    .rodape__social {
+        display: none;
+    }
 }
