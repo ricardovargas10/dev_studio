@@ -330,7 +330,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5em 2em 5em;
+    padding: 2em 5em 2em 5em;
 }
 
 .rodape__info {
@@ -403,7 +403,7 @@
     /* SEÇÃO CASES */
     .cases {
         text-align: center;
-        padding-inline: 8em;
+        padding-inline: 14em;
     }
 
     /* SEÇÃO CTA */
@@ -576,7 +576,7 @@
     
     /* SEÇÃO RODAPÉ */
     .rodape {
-        padding: 0 4em 1em 4em;
+        padding: 1em 4em 1em 4em;
     }
 
     .rodape__info-logo {
@@ -609,10 +609,11 @@
 
     /* SEÇÃO HOME */
     .home {
+        height: auto;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         text-align: center;
-        padding: 7em 0 0 0;
+        padding: 7em 0 3em 0;
         gap: 2em;
     }
 
@@ -628,12 +629,13 @@
 
     /* SEÇÃO CONTAINER */
     .container {
-        height: 70vh;
+        height: auto;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        padding: 5em 4em 0em 4em;
+        align-items: center;
+        padding: 5em 5em 0em 5em;
         gap: 2em;
+        text-align: center;
     }
 
     .container__conteudo {
@@ -654,11 +656,11 @@
     }
 
     .reverse {
-        height: 75vh;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         padding: 5em 4em 5em 4em;
         gap: 2em;
     }
@@ -666,19 +668,22 @@
     .metodologia {
         gap: 3em;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        padding: 2em 4em;
+        align-items: center;
+        padding: 4em;
     }
 
     .metodologia__imagem {
-        width: 20em;
+        width: 25em;
     }
     
     /* SEÇÃO PROPÓSITO */
     .proposito {
-        height: 60vh;
+        height: auto;
         flex-direction: column;
         justify-content: center;
+        padding: 5em 3em;
     }
 
     .proposito-titulo {
@@ -691,12 +696,12 @@
 
     /* SEÇÃO SERVIÇOS */
     .servicos {
-        height: 105vh;
+        height: auto;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         gap: 2em;
-        padding-inline: 4em;
+        padding: 4em;
     }   
 
     .servicos__container-titulo {
@@ -726,7 +731,8 @@
 
     /* SEÇÃO CASES */
     .cases {
-        height: 30em;
+        height: auto;
+        padding: 4em;
     }
 
     .cases__container-lista {
@@ -758,7 +764,7 @@
 
     /* SEÇÃO RODAPÉ */
     .rodape {
-        padding: 0 2em 1em 2em;
+        padding: 1em 2em 1em 2em;
     }
 }
 
@@ -787,9 +793,9 @@
 
     /* SEÇÃO HOME */
     .home {
-        height: 90vh;
-        padding: 5em 0em 0em 0em;
-        gap: 2.5em;
+        height: auto;
+        padding: 5em 0em 2em 0em;
+        gap: 2em;
     }
 
     .home__mensagem-texto {
@@ -804,7 +810,7 @@
     }
 
     .home__projeto {
-        height: 50%;
+        height: 15em;
     }
 
     /* SEÇÃO CONTAINER */
@@ -826,7 +832,7 @@
     }
 
     .container__imagem {
-        width: 10em;
+        width: 11em;
     }
 
     .reverse {
@@ -837,6 +843,12 @@
         align-items: flex-start;
         padding: 1.5em;
     }
+    .metodologia {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em 1.5em;
+    }
 
     .metodologia__imagem {
         display: none;
@@ -844,14 +856,13 @@
     
     .metodologia__mobile {
         display: flex;
-        align-items: center;
-        width: 10em;
+        width: 11em;
     }
 
     /* SEÇÃO PROPÓSITO */
     .proposito {
-        height: 50vh;
-        padding-inline: 1em;
+        height: auto;
+        padding: 2em;
     }
 
     .proposito-titulo {
@@ -921,7 +932,10 @@
 
     /* SEÇÃO CTA */
     .cta {
-        padding-inline: 2em;
+        height: auto;
+        flex-direction: column;
+        gap: 3em;
+        padding: 3em 2em;
     }
 
     .cta__titulo {
@@ -939,11 +953,35 @@
     }
 
     .cta__conteudo-botao {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* SEÇÃO RODAPÉ */
-    .rodape__social {
+    .rodape {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .rodape__info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .divisão-direitos {
         display: none;
+    }
+
+    .rodape__info-direitos {
+        font-size: 7px;
+    }
+
+    .rodape__social-lista {
+        gap: 10px;
+    }
+
+    .social-icone {
+        width: 1.25em;   
     }
 }
