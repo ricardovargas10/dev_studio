@@ -780,7 +780,7 @@
     }
 
     .cabecalho-logo {
-        height: 30px;
+        height: 40px;
     }
 
     .cabecalho-menu__lista__item {
@@ -788,7 +788,7 @@
     }
 
     .cabecalho-menu__lista__botao {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     /* SEÇÃO HOME */
@@ -799,13 +799,13 @@
     }
 
     .home__mensagem-texto {
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 1em;
     }
 
     .home__mensagem-titulo {
-        font-size: 45px;
-        line-height: 55px;
+        font-size: 50px;
+        line-height: 60px;
         letter-spacing: -3px;
     }
 
@@ -828,7 +828,7 @@
     }
     
     .container__conteudo-texto {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .container__imagem {
@@ -856,7 +856,7 @@
     
     .metodologia__mobile {
         display: flex;
-        width: 11em;
+        width: 12em;
     }
 
     /* SEÇÃO PROPÓSITO */
@@ -902,7 +902,7 @@
     }
 
     .servicos__lista__item-texto {
-        font-size: 12px;
+        font-size: 14px;
         width: 90%;
     }
 
@@ -914,7 +914,7 @@
 
     .cases {
         height: auto;
-        padding: 2em 1em;
+        padding: 2em 0.1em;
     }
 
     .cases__container-titulo {
@@ -927,7 +927,7 @@
     }
 
     .cases__lista-item__imagem {
-        width: 6em;
+        width: 7em;
     }
 
     /* SEÇÃO CTA */
@@ -974,7 +974,7 @@
     }
 
     .rodape__info-direitos {
-        font-size: 7px;
+        display: none;
     }
 
     .rodape__social-lista {
@@ -983,5 +983,31 @@
 
     .social-icone {
         width: 1.25em;   
+    }
+}
+
+
+
+/* MINI SMARTPHONE*/
+
+@media screen and (max-width: 360px) {
+    
+    /* SEÇÃO CABEÇALHO */
+    .cabecalho {
+        padding: 1.7em 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho-logo {
+        display: none;
+    }
+
+    .cabecalho-menu__lista__item {
+        display: none;
+    }
+
+    .cabecalho-menu__lista__botao {
+        font-size: 10px;
     }
 }
