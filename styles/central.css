@@ -1,0 +1,133 @@
+:root {
+    --color-black: #000000;
+    --accentcolor: #FFCC00;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.foto-perfil {
+    margin-top: 2em;
+    width: 4em;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.conteudo__titulo {
+    font-family: var(--type-title);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.conteudo__texto {
+    font-family: var(--type-title);
+    font-size: 12px;
+    font-style: normal;
+    line-height: 17px;
+    font-weight: 400;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.social__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65em;
+    margin-bottom: 2em;
+}
+
+.social__link-botao {
+    padding: 22px 44px;
+    border-radius: 10px;
+    width: 13em;
+    font-family: var(--type-text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-darkgray);
+}
+
+.voltar {
+    background-color: var(--color-black);
+    border: 3px solid var(--color-darkgray);
+}
+
+.social__link-botao:hover {
+    background-color: var(--color-darkgray-hover);
+}
+
+.social__link-botao:active {
+    background-color: var(--color-white);
+}
+
+.voltar:active {
+    background-color: var(--color-darkgray);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+.rodape__logo {
+    width: 4.5em;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 414px) {
+    .social__link-botao {
+        width: 18em;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .social__link-botao {
+        width: 35em;
+    }
+
+    .rodape__logo {
+        width: 5em;
+        margin-bottom: 2.5em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rodape__logo {
+        width: 5em;
+        margin-bottom: 1.5em;
+    }
+}

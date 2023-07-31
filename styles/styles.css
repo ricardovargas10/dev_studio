@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url("index.css");
 
 :root {
     --color-black: #000000;
-    --color-darkgray: #636363;
+    --color-darkgray: #222222;
+    --color-darkgray-hover: #323232;
     --color-gray: #B3B3B3;
     --color-lightgray: #F2F2F7;
     --color-white: #FFFFFF;
@@ -36,79 +36,3 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 3px solid var(--color-white);
 }
-
-
-/* header {
-    padding: 0.5em 5em;
-}
-
-section {
-    padding-inline: 5em;
-}
-
-footer {
-    padding: 0 5em 2em 5em;
-}
-
-
-@media screen and (min-width: 1925px) {
-    header {
-        padding: 0.5em 8em;
-    }
-    
-    section {
-        padding-inline: 8em;
-    }
-
-    footer {
-        padding: 0 8em 2em 8em;
-    }
-}
-
-
-
-@media screen and (min-width: 1728px) {
-    header {
-        padding: 0.5em 3em;
-    }
-    
-    section {
-        padding-inline: 3em;
-    }
-
-    footer {
-        padding: 0 3em 2em 3em;
-    }
-}
-
-
-
-@media screen and (min-width: 1024px) {
-    header {
-        padding: 0.75em 2em;
-    }
-    
-    section {
-        padding-inline: 8em;
-    }
-
-    footer {
-        padding: 0 8em 2em 8em;
-    }
-}
-
-
-
-@media screen and (min-width: 600px) {
-    header {
-        padding: 0.5em 8em;
-    }
-    
-    section {
-        padding-inline: 8em;
-    }
-
-    footer {
-        padding: 0 8em 2em 8em;
-    }
-} */
