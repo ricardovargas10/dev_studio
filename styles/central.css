@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 main {
@@ -60,7 +60,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 0.65em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .social__link-botao {
@@ -71,16 +71,11 @@ main {
     font-size: 16px;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     text-align: center;
     color: var(--color-white);
     background-color: var(--color-darkgray);
-}
-
-.voltar {
-    background-color: var(--color-black);
-    border: 3px solid var(--color-darkgray);
 }
 
 .social__link-botao:hover {
@@ -91,8 +86,30 @@ main {
     background-color: var(--color-white);
 }
 
-.voltar:active {
+.outline {
+    background-color: var(--color-black);
+    border: 2px solid var(--color-darkgray);
+}
+
+.outline:hover {
+    background-color: var(--color-black);
+    border: 2px solid var(--color-darkgray-hover);
+}
+
+.outline:active {
     background-color: var(--color-darkgray);
+}
+
+.voltar {
+    padding: 30px 0px 0px 0px;
+    font-family: var(--type-text);
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-gray);
 }
 
 .rodape {
@@ -100,7 +117,6 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 100vh;
 }
 
 .rodape__logo {
