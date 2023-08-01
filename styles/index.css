@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 0.75em 5em;
+    padding: 0.75em 8em;
 }
 
 .cabecalho-logo {
@@ -24,6 +24,10 @@
 }
 
 .cabecalho-menu__lista__item {
+    display: none;
+}
+
+/* .cabecalho-menu__lista__item {
     font-family: var(--type-text);
     font-size: 10px;
     font-style: normal;
@@ -32,7 +36,7 @@
     text-decoration: none;
     color: var(--color-black);
     padding: 1em;
-}
+} */
 
 .cabecalho-menu__lista__botao {
     text-decoration: none;
@@ -63,7 +67,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    padding-inline: 5em;
+    padding-inline: 8em;
     background-color: var(--home-primeiro);
 }
 
@@ -99,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3em 5em;
+    padding: 3em 8em;
 }
 
 .container__conteudo {
@@ -148,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 5em;
+    padding-inline: 8em;
     gap: 0 20rem;
     background: var(--color-black);
 }
@@ -161,7 +165,7 @@
     font-weight: 700;
     letter-spacing: -3px;
     color: var(--color-white);
-    width: 60%;
+    width: 66%;
 }
 
 
@@ -173,7 +177,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 5em;
+    padding-inline: 8em;
     background: var(--color-lightgray);
 }
 
@@ -330,13 +334,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em 5em 2em 5em;
+    padding: 2em 8em 2em 8em;
 }
 
 .rodape__info {
     display: flex;
     align-items: flex-end;
-    gap: 25px;
+    gap: 20px;
 }
 
 .rodape__info-logo {
@@ -352,7 +356,7 @@
     padding-inline: 1em;
     color: var(--color-black);
     color: var(--color-white);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.85em;
 }
 
 .rodape__social-lista {
@@ -361,7 +365,7 @@
 }
 
 .social-icone {
-    width: 2em;
+    width: 1.6em;
 }
 
 
@@ -372,7 +376,7 @@
     
     /* SEÇÃO CABEÇALHO */
     .cabecalho {
-        padding-inline: 8em;
+        padding-inline: 10em;
     }
     
     /* SEÇÃO HOME */
@@ -587,8 +591,8 @@
         width: 5em;
     }
 
-    .rodape__info-direitos {
-        margin-bottom: 0.15em;
+    .social-icone {
+        width: 1.4em;
     }
 }
 
@@ -603,12 +607,20 @@
         padding: 0.75em 2em
     }
 
+    .cabecalho-logo {
+        height: 45px;
+    }
+
     .cabecalho-menu__lista {
         gap: 1px;
     }
 
     .cabecalho-menu__lista__item {
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .cabecalho-menu__lista__botao {
+        font-size: 12px;
     }
 
     /* SEÇÃO HOME */
@@ -625,6 +637,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    
+    .home__mensagem-texto {
+        font-size: 26px;
+        margin-bottom: 1.75em;
+    }
+    
+    .home__mensagem-titulo {
+        font-size: 90px;
+        line-height: 100px;
+        letter-spacing: -5px;
     }
 
     .home__projeto {
@@ -651,6 +674,10 @@
 
     .container__conteudo-titulo {
         margin-bottom: 2rem;
+    }
+
+    .container__conteudo-texto {
+        font-size: 22px;
     }
 
     .container__imagem {
@@ -710,6 +737,7 @@
 
     .servicos__container-titulo {
         width: 5em;
+        margin-bottom: 0.5em;
     }
 
     .servicos__container-seta {
@@ -718,11 +746,26 @@
 
     .servicos__lista__conteudo {
         justify-content: flex-start;
+        gap: 3em;
     }
 
     .servicos__lista__item-numero,
     .servicos__lista__item-titulo {
-        font-size: 24px;
+        font-size: 30px;
+    }   
+
+    .servicos__lista__item-numero {
+        margin-bottom: 0em;
+    }
+
+    .servicos__lista__item-titulo {
+        margin-bottom: 0.5em;
+    }
+
+    .servicos__lista__item-texto {
+        font-size: 20px;
+        line-height: 28px;
+        width: 90%;
     }
 
     .servicos__lista__item-numero {
@@ -757,13 +800,17 @@
         line-height: 80px;
     }
 
+    .cta__conteudo {
+        width: 16em;
+    }
+
     .cta__conteudo-titulo {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .cta__conteudo-texto {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 22px;
     }
 
     /* SEÇÃO RODAPÉ */
@@ -785,6 +832,7 @@
 
     .cabecalho-logo {
         height: 40px;
+        margin-top: 0.4em;
     }
 
     .cabecalho-menu__lista__item {
@@ -945,6 +993,7 @@
     .cta__titulo {
         font-size: 40px;
         line-height: 45px;
+        width: 70%;
     }
 
     .cta__conteudo-titulo {
@@ -963,14 +1012,13 @@
     /* SEÇÃO RODAPÉ */
     .rodape {
         flex-direction: column;
-        gap: 30px;
+        gap: 22px;
     }
 
     .rodape__info {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 15px;
     }
 
     .divisão-direitos {
@@ -998,13 +1046,15 @@
     
     /* SEÇÃO CABEÇALHO */
     .cabecalho {
-        padding: 1.7em 1em;
+        padding: 0.75em 1em;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        gap: 10px;
     }
 
     .cabecalho-logo {
-        display: none;
+        height: 35px;
     }
 
     .cabecalho-menu__lista__item {
@@ -1013,5 +1063,26 @@
 
     .cabecalho-menu__lista__botao {
         font-size: 10px;
+    }
+
+    /* SEÇÃO HOME */
+    .home {
+        padding-top: 6.2em;
+    }
+
+    .home__mensagem-titulo {
+        font-size: 43px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
+
+    /* SEÇÃO CTA */
+    .cta__titulo {
+        width: 100%;
+    }
+
+    /* SEÇÃO RODAPÉ */
+    .rodape__info-logo {
+        width: 4.3em;
     }
 }
