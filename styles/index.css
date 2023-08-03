@@ -492,13 +492,14 @@
     /* SEÇÃO PROPÓSITO */
     .proposito {
         height: 110vh;
+        padding-inline: 4em;
     }
 
     .proposito-titulo {
         font-size: 65px;
         line-height: 75px;
         letter-spacing: -2px;
-        width: 79%;
+        width: 825px;
     }
 
     /* SEÇÃO SERVIÇOS */
@@ -764,7 +765,6 @@
 
     .servicos__lista__item-texto {
         font-size: 20px;
-        line-height: 28px;
         width: 90%;
     }
 
@@ -928,12 +928,17 @@
     .servicos {
         height: auto;
         padding: 2em 1em;
+        gap: 1em;
     }
 
     .servicos__container-titulo {
         font-size: 40px;
         line-height: 45px;
         letter-spacing: -2x;
+    }
+
+    .servicos__lista__conteudo {
+        gap: 1.5em;    
     }
 
     .servicos__lista__item-texto {
@@ -994,6 +999,10 @@
         font-size: 40px;
         line-height: 45px;
         width: 70%;
+    }
+
+    .cta__conteudo {
+        width: 90%;
     }
 
     .cta__conteudo-titulo {
@@ -1076,8 +1085,23 @@
         letter-spacing: -2px;
     }
 
+    /* SEÇÃO PROPÓSITO */
+    .proposito {
+        padding: 2em 1em;
+    }
+
+    .proposito-titulo {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: -1px;
+    }
+
     /* SEÇÃO CTA */
     .cta__titulo {
+        width: 100%;
+    }
+
+    .cta__conteudo {
         width: 100%;
     }
 
