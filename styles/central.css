@@ -112,6 +112,10 @@ main {
     color: var(--color-gray);
 }
 
+strong {
+    font-weight: 200;
+}
+
 .rodape {
     display: flex;
     flex-direction: column;
